@@ -1,0 +1,53 @@
+Author name: Ganesh
+
+Hi friend, 
+Here your buddy Ganesh, who use to make your work ease and helps you to complete your work within a seconds
+
+Important point to consider: Use python 2.7 to run this code
+
+
+I am describing the list of functions available in this library - "system_time"
+
+Library usage details:
+you can call the method available in this library by the following syntax
+
+Syntax is: system_time."any function name" 
+
+Once you call any function - It will return you the string value.
+store it in some variable and do your operations
+
+Example code:
+current_date=system_time.date() ; #current_date is a variable. created by your buddy for demonstration purpose
+print(current_date);
+
+Available methods on date and time are
+1. date_time_all() - return the current system date and time in 24hr format
+
+2. date_y_m_d() - return the date (Year-Month-Date)
+
+
+3. date_d() - return the date interms of number
+4. month_m() - return the month as a number
+5. year_y() - return the year interms of number 
+
+6. day_word() - return the current day in terms of characters
+7. month_word - return the month interms of character
+
+
+8. time()_24 - return the current system time (Hour-Minutes-Seconds) in 24hr format
+9. time()_24_h_m - return the current system time (Hour-Minutes) in 24hr format
+
+10. time_12() - return the current time in 12-hour format (Hour-Minutes-Seconds) with am and pm indication too
+11. time_12_h_m_s() - return the current system time in 12-hour format (Hour-Minutes-Seconds) and no am, pm indication
+12. time_12_h_m() - return the current time in 12-hour format (Hour-Minutes) and no am,pm indication
+13. time_12_am_pm - return the current time status as either am and pm 
+
+
+
+To access the calender, syntax should be as follows
+
+Syntax is: system_time.calender_disp(year, month)
+
+calender syntax explanation - "pass two arguments. first one should be year and second one is month (month value starts from 1 to 12, whereas 1 represents January and 12 represents december), should be two arugments"
+
+after this store it some variable and do your operations
